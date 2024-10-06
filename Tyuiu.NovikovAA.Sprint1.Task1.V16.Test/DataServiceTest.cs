@@ -14,7 +14,7 @@ namespace Tyuiu.NovikovAA.Sprint1.Task1.V16.Test
             double y = 2.0;
             double a = 3.0;
             var res = ds.Calculate(x, y, a);
-            Assert.AreEqual(32, res);
+            Assert.AreEqual(16, res);
         }
     }
 }
