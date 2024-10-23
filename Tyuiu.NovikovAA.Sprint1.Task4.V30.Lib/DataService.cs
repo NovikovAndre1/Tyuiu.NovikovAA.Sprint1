@@ -10,7 +10,7 @@ namespace Tyuiu.NovikovAA.Sprint1.Task4.V30.Lib
         public double Calculate(double x, double y)
         {
             var res = (x + Math.Pow(y, 3)) / (Math.Exp(2) - y);
-            return Math.Max(res, 2);
+            return Math.Max(res, 1);
             
             
         }
