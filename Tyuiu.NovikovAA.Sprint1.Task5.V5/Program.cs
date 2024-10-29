@@ -18,13 +18,15 @@ namespace Tyuiu.NovikovAA.Sprint1.Task5.V5
             }
 
             // Извлечение дробной части
-            double fractionalPart = x - Math.Floor(x);
+            double part = x - Math.Floor(x);
 
             // Извлечение первой цифры дробной части
-            int d = (int)(fractionalPart * 10);
+            int d = (int)(part * 10);
 
             // Вывод результата
             Console.WriteLine($"Первая цифра дробной части числа {x} - это {d}");
+
+            Console.ReadKey();
         }
     }
 }
