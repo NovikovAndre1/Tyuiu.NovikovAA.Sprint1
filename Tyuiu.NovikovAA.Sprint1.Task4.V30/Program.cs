@@ -12,7 +12,7 @@ namespace Tyuiu.NovikovAA.Sprint1.Task4.V30
             Console.WriteLine("********************************************************************");
             Console.WriteLine("Исходные данные");
             Console.WriteLine("********************************************************************");
-            int x, y, e;
+            int x, y;
 
             Console.WriteLine("Введите значение х:");
             x = Convert.ToInt32(Console.ReadLine());
@@ -20,8 +20,6 @@ namespace Tyuiu.NovikovAA.Sprint1.Task4.V30
             Console.WriteLine("Введите значение y:");
             y = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Введите значение e:");
-            e = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("********************************************************************");
             Console.WriteLine("РЕЗУЛЬТАТ");
