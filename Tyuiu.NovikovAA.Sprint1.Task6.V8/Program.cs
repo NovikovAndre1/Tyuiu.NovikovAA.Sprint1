@@ -16,7 +16,7 @@ namespace Tyuiu.NovikovAA.Sprint1.Task6.V8
             {
                 Console.WriteLine((word + word[0]).Remove(0, 1));
             }
-                Console.WriteLine(ds.MoveLetterToEnd(str));
+                
             Console.ReadKey();
 
         }
