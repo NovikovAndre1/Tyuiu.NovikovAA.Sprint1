@@ -11,7 +11,7 @@ namespace Tyuiu.NovikovAA.Sprint1.Task6.V8.Lib
         public string MoveLetterToEnd(string value)
         {
             
-            return value.Substring(1) + value.Substring(0, 1);
+            return (value + value[0]).Remove(0, 1);
         }
     }
 }
